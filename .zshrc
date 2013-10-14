@@ -11,8 +11,11 @@ plugins=(git osx git-flow brew fabric sublime django postgres)
 
 source $ZSH/oh-my-zsh.sh
 
+# Username
+USERNAME="arturo.fernandez"
+
 # Setting PATH
-export PATH=/Users/arturo.fernandez/.rbenv/shims:/usr/local/share/npm/bin:/usr/local/share/python:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/arturo.fernandez/scripts/
+export PATH=/Users/$USERNAME/.rbenv/shims:/usr/local/share/npm/bin:/usr/local/share/python:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/$USERNAME/scripts/
 
 # Front-end
 alias grb='grunt build'
